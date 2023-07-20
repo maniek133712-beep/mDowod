@@ -30,7 +30,7 @@ function IsDocumentNumberCorrect(number) {
 
     const { serie, controlDigit, restOfNumber } = regexNumberParts.exec(numberToCheck).groups;
     const withoutDigitControl = `${serie}${restOfNumber}`;
-    const checkSum = 0;
+    var checkSum = 0;
     for (var counter = 0; counter < withoutDigitControl.length; counter += 1) {
         checkSum += GetLetterValue(withoutDigitControl.charAt(counter)) * weigts[counter];
     }
