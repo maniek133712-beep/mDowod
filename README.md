@@ -3,7 +3,7 @@
 # mDowód - sprawdzanie poprawności cyfry kontrolnej
 [TOC]
 
-Metoda **`IsDocumentNumberCorrect`** w pliku `src/mDowod-validator.js`
+Metoda **`IsDocumentNumberCorrect`** w plikach `src/mDowod-validator.js` (javascript) oraz `DocumentNumberValidator.cs` (C#)
 
 Sprawdza czy cyfra kontrolna numeru **Dowodu** / **mDowodu** / **Paszportu** / **Karty pobytu** jest poprawna.
 
